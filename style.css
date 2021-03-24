@@ -25,6 +25,7 @@ button {
 .hidden {
   display: none;
 }
+
 #button1 {
     background: lightgreen;
 }
@@ -37,6 +38,18 @@ button {
 #button4 {
     background: lightyellow;
 }
+#button5 {
+    background: #ffc88a;
+}
+#button6 {
+    background: #ffabfe;
+}
+#button7 {
+    background: #caf57f;
+}
+#button8 {
+    background: #baffe7;
+}
 #button1:active, #button1.lit {
     background:green;
 }
@@ -48,4 +61,68 @@ button {
 }
 #button4:active, #button4.lit {
     background:yellow;
+}
+#button5:active, #button5.lit {
+    background:orange;
+}
+#button6:active, #button6.lit {
+    background:purple;
+}
+#button7:active, #button7.lit {
+    background:#99ff00;
+}
+#button8:active, #button8.lit {
+    background:#00faa2;
+}
+.base-timer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: black;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
 }
