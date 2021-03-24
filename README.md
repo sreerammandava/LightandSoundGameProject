@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
+![](https://i.imgur.com/JG1e04o.gif)
 
 
 ## Reflection Questions
@@ -92,6 +92,7 @@ towards the clock system, I would enhance that feature to become an integral par
 how the user generates inputs that affect the game.]
 
 
+https://cdn.glitch.com/5410f309-8350-4110-956c-1868b97b82e5%2Fthumbnails%2FProject%20Stuff.gif?161661672630z5
 
 ## License
 
